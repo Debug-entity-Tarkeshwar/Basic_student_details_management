@@ -15,7 +15,7 @@ def deletestudent():
     else:
         print("there is no student with such name!")
 def editstudentdetail():
-    name = input('enter name of student you want to delete:')
+    name = input('enter name of student you want to edit:')
     if name in studentDict:
         rollno_and_marks = input('enter rollno. and marks of ' + name +':')
         studentDict[name] = rollno_and_marks
